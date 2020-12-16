@@ -8,16 +8,21 @@ public class erreurs
 
 		public static void main(String[] args)
 			{
-				String nom= "John";
-				System.out.println(saluerAmi(nom));
+				String [] nom= {"john"};
+				System.out.println(saluerAmi+nom);
 				/*
 				 * Méthode permettant de saluer un ami en utiliant son nom
 				 */
-				public static String saluerAmi(String[]a)
+				public static String saluerAmi(String a)
 				{
-					String message="bonjour mon ami"+nom;
-				}
-				return message
+						String message="";
+						for(int i=0;i<nom.length;i++)
+							nom += message.string(0,i);
+						return message;
+								
+							}
+				
+					
 
 
 			}
